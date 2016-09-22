@@ -107,10 +107,19 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Assets\images\project_small.png" />
+    <Content Include="ContactMaster.aspx" />
+    <Content Include="ProjectMaster.aspx" />
+    <Content Include="Assets\images\banner.png" />
+    <Content Include="Assets\images\roseknight_small.png" />
+    <Content Include="Assets\images\shiftzero_small.png" />
+    <Content Include="Assets\images\valkmichael_small.png" />
+    <Content Include="Assets\images\valkoracle_small.png" />
+    <Content Include="ServiceMaster.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\custombootstrap.css" />
+    <Content Include="Content\navbar-fixed-side.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -166,20 +175,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="ContactMaster.aspx.cs">
+      <DependentUpon>ContactMaster.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="ContactMaster.aspx.designer.cs">
+      <DependentUpon>ContactMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectMaster.aspx.cs">
+      <DependentUpon>ProjectMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjectMaster.aspx.designer.cs">
+      <DependentUpon>ProjectMaster.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="ServiceMaster.aspx.cs">
+      <DependentUpon>ServiceMaster.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="ServiceMaster.aspx.designer.cs">
+      <DependentUpon>ServiceMaster.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -201,12 +217,14 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

@@ -1,0 +1,141 @@
+﻿.navbar-brand{
+    color:#ffffff !important;
+    font-size: 80px;
+    float:none;
+    text-align:center !important;
+}
+
+.projects-text{
+    color:#ffffff !important;
+    background: #4d4d4d;
+    border-radius: 25px;
+    padding-left:8px;
+}
+
+.navbar-header {
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.panel-body{
+    border-width: 0px;
+}
+
+.navbar-fixed-top{
+    background: url("../Assets/images/banner.png") !important;
+    background-position-x: -350px !important;
+    background-position-y: -30px !important;
+}
+
+#rose-knight{
+    border-radius: 20px;
+    background: url("../Assets/images/roseknight_small.png") !important;
+    text-align:left !important;
+    color: #ffb3b3;
+}
+
+#shift-zero{
+    border-radius: 20px;
+    background: url("../Assets/images/shiftzero_small.png") !important;
+    text-align:left !important;
+    color: #00334d;
+}
+
+#valk-oracle{
+    border-radius: 20px;
+    background: url("../Assets/images/valkoracle_small.png") !important;
+    text-align:left !important;
+    color: #cceeff;
+}
+
+#valk-michael{
+    border-radius: 20px;
+    background: url("../Assets/images/valkmichael_small.png") !important;
+    text-align:left !important;
+    color: #000000;
+}
+
+#project-icn{
+    border-radius: 20px;
+    background: url("../Assets/images/project_small.png") !important;
+    background-position-x: 50px !important;
+    background-position-y: 200px !important;
+    text-align:center !important;
+    color: #000000;
+}
+
+#services-icn{
+    border-radius: 20px;
+    background: url("../Assets/images/project_small.png") !important;
+    background-position-x: 50px !important;
+    background-position-y: 200px !important;
+    text-align:center !important;
+    color: #000000;
+}
+
+#contact-icn{
+    border-radius: 20px;
+    background: url("../Assets/images/project_small.png") !important;
+    background-position-x: 50px !important;
+    background-position-y: 200px !important;
+    text-align:center !important;
+    color: #000000;
+}
+
+#webdesign-icn{
+    border-radius: 20px;
+    background: url("../Assets/images/project_small.png") !important;
+    background-position-x: 50px !important;
+    background-position-y: 200px !important;
+    text-align:left !important;
+    color: #000000;
+}
+#c3programming-icn{
+    border-radius: 20px;
+    background: url("../Assets/images/project_small.png") !important;
+    background-position-x: 50px !important;
+    background-position-y: 200px !important;
+    text-align:left !important;
+    color: #000000;
+}
+
+#unityprogramming-icn{
+    border-radius: 20px;
+    background: url("../Assets/images/project_small.png") !important;
+    background-position-x: 50px !important;
+    background-position-y: 200px !important;
+    text-align:left !important;
+    color: #000000;
+}
+
+#videocon-icn{
+    border-radius: 20px;
+    background: url("../Assets/images/project_small.png") !important;
+    background-position-x: 50px !important;
+    background-position-y: 200px !important;
+    text-align:left !important;
+    color: #000000;
+}
+
+.panel-body {
+    background-color :rgba(255, 255, 255, 0.8) !important;
+}
+
+body{
+    padding-top: 240px;
+    align-content:center;
+    padding-left:220px;
+    text-align:center !important;
+}
+
+h3{
+    text-align:left !important;
+}
+
+.jumbotron{
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
