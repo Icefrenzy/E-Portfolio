@@ -46,36 +46,9 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     </button>
                     <a class="navbar-brand" runat="server" href="~/">Jan Kevin Munar</a> <br />
-                    <ul class="navbar-nav">
-                    <li><div class="panel panel-default" id="project-icn">
-                        <a runat="server" href="ProjectMaster.aspx">
-                            <div class="panel panel-heading"></div>
-                            <div class="panel panel-body">
-                                <div class="panel-body">Projects</div>
-                            </div>
-                        </a>
-                    </div>
-                    </li>
-                    <li>
-                    <div class="panel panel-default" id="services-icn">
-                        <a runat="server" href="ServiceMaster.aspx">
-                            <div class="panel panel-heading"></div>
-                            <div class="panel panel-body">
-                                <div class="panel-body">Services</div>
-                            </div>
-                        </a>
-                    </div>
-                    </li>
-                    <li>
-                    <div class="panel panel-default" id="contact-icn">
-                        <a runat="server" href="ContactMaster.aspx">
-                            <div class="panel panel-heading"></div>
-                            <div class="panel panel-body">
-                                <div class="panel-body">Contacts</div>
-                            </div>
-                        </a>
-                    </div>
-                    </ul>
+                    <div class="col-md-4"><div class="panel panel-body">Projects</div> </div>
+                    <div class="col-md-4"><div class="panel panel-body">Services</div> </div>
+                    <div class="col-md-4"><div class="panel panel-body">Contact</div> </div>
                 </div>
             </div>
         </div>
