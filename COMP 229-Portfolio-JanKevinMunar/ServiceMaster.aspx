@@ -2,6 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
+    <div class="alert alert-warning" role="alert">Clicking on these will send you to your e-mail with my personal e-mail</div>
     <div class="col-md-6">
     <a href="mailto:jankevinmunar@gmail.com">
     <div class="panel panel-default" id="webdesign-icn">

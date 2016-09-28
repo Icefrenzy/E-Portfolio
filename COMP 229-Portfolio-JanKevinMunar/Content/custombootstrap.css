@@ -23,9 +23,13 @@
     border-width: 0px;
 }
 
+.panel-body-sm{
+    padding: 5px 5px !important;
+}
+
 .navbar-fixed-top{
     background: url("../Assets/images/banner.png") !important;
-    background-position-x: -350px !important;
+    background-position-x: -250px !important;
     background-position-y: -30px !important;
 }
 
@@ -68,9 +72,7 @@
 
 #services-icn{
     border-radius: 20px;
-    background: url("../Assets/images/project_small.png") !important;
-    background-position-x: 50px !important;
-    background-position-y: 200px !important;
+    background: url("../Assets/images/services_small.png") !important;
     text-align:center !important;
     color: #000000;
 }
@@ -86,37 +88,34 @@
 
 #webdesign-icn{
     border-radius: 20px;
-    background: url("../Assets/images/project_small.png") !important;
-    background-position-x: 50px !important;
-    background-position-y: 200px !important;
+    background: url("../Assets/images/webservices_small.png") !important;
     text-align:left !important;
     color: #000000;
 }
 #c3programming-icn{
     border-radius: 20px;
-    background: url("../Assets/images/project_small.png") !important;
-    background-position-x: 50px !important;
-    background-position-y: 200px !important;
+    background: url("../Assets/images/c3_small.png") !important;
     text-align:left !important;
     color: #000000;
 }
 
 #unityprogramming-icn{
     border-radius: 20px;
-    background: url("../Assets/images/project_small.png") !important;
-    background-position-x: 50px !important;
-    background-position-y: 200px !important;
+    background: url("../Assets/images/unity_small.png") !important;
     text-align:left !important;
     color: #000000;
 }
 
 #videocon-icn{
     border-radius: 20px;
-    background: url("../Assets/images/project_small.png") !important;
-    background-position-x: 50px !important;
-    background-position-y: 200px !important;
+    background: url("../Assets/images/vidcon_small.png") !important;
     text-align:left !important;
     color: #000000;
+}
+
+#biocontent{
+    font-style:italic !important;
+    text-align:center !important;
 }
 
 .panel-body {
@@ -138,3 +137,4 @@ h3{
     padding-bottom: 10px !important;
     padding-top: 10px !important;
 }
+

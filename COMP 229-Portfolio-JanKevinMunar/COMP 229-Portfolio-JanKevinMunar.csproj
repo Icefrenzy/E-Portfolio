@@ -107,7 +107,12 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\c3_small.png" />
     <Content Include="Assets\images\project_small.png" />
+    <Content Include="Assets\images\services_small.png" />
+    <Content Include="Assets\images\unity_small.png" />
+    <Content Include="Assets\images\vidcon_small.png" />
+    <Content Include="Assets\images\webservices_small.png" />
     <Content Include="ContactMaster.aspx" />
     <Content Include="ProjectMaster.aspx" />
     <Content Include="Assets\images\banner.png" />
