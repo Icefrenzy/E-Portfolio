@@ -5,6 +5,7 @@
      <h1> Welcome to my E-Portfolio</h1>
         <p id="biocontent">"Progress is without a challenge!"</p>
     </div>
+    <h2> Mission Statements </h2>
     <div class="row">
         <div class="col-xs-6 col-md-4">
             <div class="well">Provide a fast and reliable services.</div>

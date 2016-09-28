@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Projects" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProjectMaster.aspx.cs" Inherits="COMP_229_Portfolio_JanKevinMunar.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2 class="projects-text"> Current Projects</h2>
+    <h2 class="projects-text">Projects</h2>
     <h3>Standalone</h3>
     <hr />
     <div class="col-md-6">

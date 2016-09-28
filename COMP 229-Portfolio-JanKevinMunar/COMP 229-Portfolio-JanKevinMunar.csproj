@@ -108,8 +108,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\images\c3_small.png" />
+    <Content Include="Assets\images\fblogo.png" />
+    <Content Include="Assets\images\gitlogo.png" />
+    <Content Include="Assets\images\linkedlogo.png" />
     <Content Include="Assets\images\project_small.png" />
     <Content Include="Assets\images\services_small.png" />
+    <Content Include="Assets\images\steamlogo.png" />
     <Content Include="Assets\images\unity_small.png" />
     <Content Include="Assets\images\vidcon_small.png" />
     <Content Include="Assets\images\webservices_small.png" />

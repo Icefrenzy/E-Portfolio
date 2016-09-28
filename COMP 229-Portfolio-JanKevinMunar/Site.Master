@@ -46,9 +46,9 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     </button>
                     <a class="navbar-brand" runat="server" href="~/">Jan Kevin Munar</a> <br />
-                    <div class="col-md-4"><div class="panel panel-body">Projects</div> </div>
-                    <div class="col-md-4"><div class="panel panel-body">Services</div> </div>
-                    <div class="col-md-4"><div class="panel panel-body">Contact</div> </div>
+                    <a runat="server" href="ProjectMaster.aspx"><div class="col-md-4"><div class="panel panel-body">Projects</div> </div></a>
+                    <a runat="server" href="ServiceMaster.aspx"><div class="col-md-4"><div class="panel panel-body">Services</div> </div></a>
+                    <a runat="server" href="ContactMaster.aspx"><div class="col-md-4"><div class="panel panel-body">Contact</div> </div></a>
                 </div>
             </div>
         </div>
